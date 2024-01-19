@@ -2,6 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+getting started, clone this repo and
+
+```
+npm install
+```
+This project uses local storage for data storage, eliminating the need for a backend. However, please note that the data will be deleted if you clear your browser data.
+<br>
 First, run the development server:
 
 ```bash
