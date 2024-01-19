@@ -15,7 +15,7 @@ const Beranda = () => {
         <>
           {" "}
           <section className="flex justify-center mt-12">
-            <div className="max-w-lg p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <svg
                 className="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3"
                 aria-hidden="true"
@@ -47,7 +47,7 @@ const Beranda = () => {
         </>
       ) : (
         <>
-          <section className="mx-24 my-12">
+          <section className="mx-3 my-12 lg:mx-24">
             <Fullcalendar />
           </section>
         </>
